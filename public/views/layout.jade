@@ -1,0 +1,12 @@
+doctype
+html(ng-app="app")
+    head
+        title FQU - Gestion des résultats
+        include stylesheets
+        base(href="/")
+    body(ng-controller="mainController as mainCtrl")
+        include header
+        div(id="content")
+            block main-content
+        include footer
+        include scripts
