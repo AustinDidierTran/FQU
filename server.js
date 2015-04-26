@@ -24,7 +24,7 @@ app.use(express.static(rootPath + '/public'));
 
 app.get('/partials/*', function(req, res) {
     console.log('Rendering partial...');
-    res.render(__dirname + '/public/views/' + req.params[0]);
+    res.render(__dirname + '/public/views/partials/' + req.params[0]);
         
 });
 

@@ -1,10 +1,10 @@
 doctype
-html(ng-app="app")
+html
     head
         title FQU - Gestion des résultats
         include stylesheets
         base(href="/")
-    body(ng-controller="mainController as mainCtrl")
+    body(ng-app="app" ng-controller="tournamentController as tournamentCtrl")
         include header
         div(id="content")
             block main-content

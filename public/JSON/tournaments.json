@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 0,
+        "name": "Mars Attaque",
+        "link": "/tournoi/MarsAttaque"
+    },
+    {
+        "id" : 1,
+        "name": "La Virée",
+        "link": "/tournoi/Viree"
+    },
+    {
+        "id" : 2,
+        "name": "Coup de Foudre",
+        "link": "/tournoi/CoupDeFoudre"
+    },
+    {
+        "id" : 3,
+        "name": "Bonne Année",
+        "link": "/tournoi/BonneAnnee"
+    },
+    {
+        "id" : 4,
+        "name": "Bye Bye",
+        "link": "/tournoi/ByeBye"
+    },
+    {
+        "id" : 5,
+        "name": "Movember",
+        "link": "/tournoi/Movember"
+    },
+    {
+        "id" : 6,
+        "name": "Oktoberdisk",
+        "link": "/tournoi/Oktoberdisk"
+    }
+]
