@@ -1,4 +1,4 @@
-div
+div(ng-controller="headerController as headerCtrl")
     .navbar.navbar-inverse.navbar-fixed-top
         .container
             .navbar-collapse.collapse
@@ -10,7 +10,7 @@ div
                             b.caret
                         ul.dropdown-menu
                             li(ng-repeat="tournoi in tournaments")
-                                a(ng-click="tournamentCtrl.selectTournamentById(tournoi.id)") {{tournoi.name}}
+                                a(ng-click="headerCtrl.selectTournamentById(tournoi.id)") {{tournoi.name}}
                     li
                         a(href="/preclassement") Préclassement
                     li
